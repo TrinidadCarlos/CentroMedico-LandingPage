@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="servicios medicos. enfermeria en cdmx. consultas y hospitalizaciones." >
+    <link rel="shortcut icon" href="./img/favicon.png">
+
+    <link rel="preload" href="css/app.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="js/app.js" as="script">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Medical Center</title>
+</head>
+
+<body>
+    
+    <div class="contenedor-spinner">
+        <div class="spinner"></div>
+    </div>
+
+
+    <!-- <a href="#p1" class="muestra">parrafo 1</a>
+    <a href="#p2">parrafo 2</a>
+    <hr>
+    <div id="p1" class="ocultar    contenedor">
+        <h5>parrafo 1</h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo autem quibusdam repellat aliquid necessitatibus hic sint iure architecto nam, ipsam magnam fugiat eveniet cum aliquam ipsum esse provident id.
+        <br>
+        <a href="#" class="ocultar">referencia</a>
+    </div>
+    <div  id="p2" class="ocultar otro">
+        <h5>parrafo 2</h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo autem quibusdam repellat aliquid necessitatibus hic sint iure architecto nam, ipsam magnam fugiat eveniet cum aliquam ipsum esse provident id.
+        <br>
+        <a href="#" class="ocultar">referencia</a>
+    </div> -->
+    
+     <!-- ------------------------------------------------- NAVEGACION  -------------------------------------------------   -->
+     
+     <div id="presentacion"></div>
+    <nav class="navegacion" id="">
+        <div class="container navegacion-contenedor">
+            <div class="navegacion-logo">
+                    <a href="#presentacion" class="logo"> <i class="fas fa-user-md"></i>  </a>
+            </div>
+
+            <!-- icono que controlael menu responsive -->
+            <a href="#responsive" class="icono-responsive" >  <i class="fas fa-bars">  </i>  </a>
+
+            <!-- menu NO-responsive -->
+            <div class="navegacion-enlaces enlaces">
+                <a href="#areas">áreas</a>
+                <a href="#servicios">servicios</a>
+                <a href="#nosotros">nosotros</a>
+                <a href="#presencia">presencia</a>
+                <a href="#personal">personal</a>
+                <a href="#contacto">contacto</a>
+                
+            </div>
+
+        </div>
+        <!-- menu responsivo -->
+        <div id="responsive" class="navegacion-enlaces-responsive enlaces">
+            <a href="#areas">áreas</a>
+            <a href="#servicios">servicios</a>
+            <a href="#nosotros">nosotros</a>
+            <a href="#presencia">presencia</a>
+            <a href="#personal">personal</a>
+            <a href="#contacto">contacto</a>
+            <a href="#" class="icono-responsive-cierre"> <i class="far fa-times-circle"> </i> </a>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------------------- HEADER  -------------------------------------------------   -->
+    <header class="header">
+        <div class="header-contenedor">
+            <h1 class="header-titulo">Centro médico</h1>
+            <p class="header-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, beatae earum at quasi atque pariatur inventore molestias sit ab porro!</p>
+
+            <a href="#contacto" class="header-enlace boton"> agendar cita </a>
+        </div>
+    </header>
+ <!-- ------------------------------------------------- ÁREAS  -------------------------------------------------  -->
+    <aside 
+    
+    id="areas" class="areas container">
+            <div class="areas-contenedor superior "> <!-- SECCION SUPERIOR -->
+                <div class="area-detalle color1">
+                    <h2 class="titulos">medicina interna</h2>
+                    <i class="fas fa-clinic-medical area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+                <div class="area-detalle color2">
+                    <h2 class="titulos">neurología</h2>
+                    <i class="fas fa-brain area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+                <div class="area-detalle color3">
+                    <h2 class="titulos">cardiología</h2>
+                    <i class="fas fa-heartbeat area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+            </div>
+       
+     
+            <div class="areas-contenedor inferior ">
+                <div class="area-detalle color3">
+                    <h2 class="titulos">consulta general</h2>
+                    <i class="fas fa-calendar-day area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+                <div class="area-detalle color2">
+                    <h2 class="titulos">pediatría</h2>
+                    <i class="fas fa-baby area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+                <div class="area-detalle color1">
+                    <h2 class="titulos">psiquiatría</h2>
+                    <i class="fas fa-pills area-icono"></i>
+                    <p class="parrafos area-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, sequi optio deleniti iusto praesentium assumenda.</p>
+                </div>  <!-- AREA -->
+              </div>
+
+              <a href="#contacto" class="area-enlace boton"> y más! contáctanos </a>
+
+    </aside>
+
+ <!-- ------------------------------------------------- ÁREAS  -------------------------------------------------  -->
+
+
+    <main id="servicios" class="servicios container">
+        <section class="servicios-contenedor">
+            <h2 class="titulos">Contamos con...</h2>
+            <p class="servicios-presentacion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem itaque quis voluptates nisi, aliquid veniam nam perspiciatis debitis obcaecati vel vero ipsa, enim id!</p>
+            <div class="servicios-bloque">
+
+                <div class="servicios-1">
+                    <div class="servicio">
+                        <h3 class="titulos">farmacia</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                    <div class="servicio">
+                        <h3 class="titulos">ambulancias</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                    <div class="servicio">
+                        <h3 class="titulos">rayos x</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                    <div class="servicio">
+                        <h3 class="titulos">seguimientos</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                </div>  <!-- SERVICIO - 1 -->
+
+                <div class="servicios-2">
+                    
+                </div>
+
+                <div class="servicios-3">
+                    <div class="servicio">
+                        <h3 class="titulos">traslados programados</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                    <div class="servicio">
+                        <h3 class="titulos">laboratorios</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                    <div class="servicio">
+                        <h3 class="titulos">sala de urgencias</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO --> 
+                    <div class="servicio">
+                        <h3 class="titulos">guarderia</h3>
+                        <p class="servicio-detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloribus ipsam eius, libero</p>
+                    </div>  <!-- SERVICIO -->
+                </div>
+                
+            </div> <!-- SERVICIOS-BLOQUE  -->
+        </section>
+        
+    </main>
+
+    <!--  ------------------------------------------------- NOSOTROS  -------------------------------------------------   -->
+
+    <section id="nosotros" class="nosotros">
+        <div class="container">
+            <h2 class="titulos"> Nuestra historia </h2>
+            
+            <div class="nosotros-contenedor">
+            
+                <div class="nosotros-valores">
+                    <h3 class="titulos" >Valores</h3>
+                    <ul class="valores-lista">
+                        <li>compañerismo</li>
+                        <li>eficiencia</li>
+                        <li>equidad</li>
+                        <li>honestidad</li>
+                        <li>humanismo</li>
+                        <li>responsabilidad</li>
+                        <li>confia en nosotros <i class="fas fa-user-check"></i> </li>
+                    </ul>
+                </div>
+                <div class="nosotros-texto">
+                   <p class="parrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, ipsum et? Esse optio minima, voluptate praesentium quaerat dolorem ipsa consequatur.</p>
+                   <p class="parrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum tempora neque commodi eaque ipsam culpa voluptate rem nesciunt accusamus voluptatum ut nobis dolorum, cum voluptates voluptatem, cumque beatae, alias temporibus!</p>
+                   <p class="parrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum tempora neque commodi eaque ipsam culpa voluptate rem nesciunt accusamus voluptatum ut nobis dolorum, cum voluptates voluptatem, cumque beatae, alias temporibus!</p>
+                   <p class="parrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum tempora neque commodi eaque ipsam culpa voluptate rem nesciunt accusamus voluptatum ut nobis dolorum, cum voluptates voluptatem, cumque beatae, alias temporibus!</p>
+                   <p class="parrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum tempora neque commodi eaque ipsam culpa voluptate rem nesciunt accusamus voluptatum ut nobis dolorum, cum voluptates voluptatem, cumque beatae, alias temporibus!</p>
+                </div>
+            </div><!-- NOSOTROS CONTENEDOR -->
+        </div>
+
+    </section>
+
+
+    <!--  ------------------------------------------------- PRESENCIA  -------------------------------------------------   -->
+
+    <section id="presencia" class="presencia">
+        <div class="container">
+            <h2 class="titulos"> Nos ubicamos en diferentes puntos </h2>
+            
+            <div class="presencia-contenedor">
+                
+                <div class="presencia-card">
+                    <h3 class="titulos">Del. coyóacan</h3>
+                    <div class="presencia-card-img" >
+                        <img  src="./img/ubicaciones.jpg" alt="ubicacion en la delegación coyoacan" class="lazy-load">
+                    </div>
+                    <p class="presencia-detalle ">
+                        <i class=" presencia-icono fas fa-map-marker-alt"></i>
+                        Dirección: 
+                         <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum qui odio expedita, cum temporibus.
+                         </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-phone"></i>
+                        Teléfono: 
+                          <span class="parrafos">
+                             00-00-00-00-00
+                        </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-asterisk"></i>
+                         referencias: 
+                          <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, minima.
+                        </span>
+                    </p>
+                </div><!-- PRESENCIA CARD -->
+
+                <div class="presencia-card">
+                    <h3 class="titulos">Del. iztapalapa</h3>
+                    <div class="presencia-card-img" >
+                        <img  src="./img/ubicaciones.jpg" alt="ubicacion en la delegación iztapalapa" class="lazy-load">
+                    </div>
+                    <p class="presencia-detalle ">
+                        <i class=" presencia-icono fas fa-map-marker-alt"></i>
+                        Dirección: 
+                         <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum qui odio expedita, cum temporibus.
+                         </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-phone"></i>
+                        Teléfono: 
+                          <span class="parrafos">
+                             00-00-00-00-00
+                        </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-asterisk"></i>
+                         referencias: 
+                          <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, minima.
+                        </span>
+                    </p>
+                </div><!-- PRESENCIA CARD -->
+
+                <div class="presencia-card">
+                    <h3 class="titulos">Colonia roma</h3>
+                    <div class="presencia-card-img" >
+                        <img  src="./img/ubicaciones.jpg" alt="ubicacion en la colonia roma" class="lazy-load">
+                    </div>
+                    <p class="presencia-detalle ">
+                        <i class=" presencia-icono fas fa-map-marker-alt"></i>
+                        Dirección: 
+                         <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum qui odio expedita, cum temporibus.
+                         </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-phone"></i>
+                        Teléfono: 
+                          <span class="parrafos">
+                             00-00-00-00-00
+                        </span>
+                    </p>
+                    <p class="presencia-detalle">
+                        <i class=" presencia-icono fas fa-asterisk"></i>
+                         referencias: 
+                          <span class="parrafos">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, minima.
+                        </span>
+                    </p>
+                </div><!-- PRESENCIA CARD -->
+                
+            </div><!-- PRESENCIA CONTENEDOR -->
+        </div>
+    </section>
+
+    <!--  ------------------------------------------------- PERSONAL  -------------------------------------------------   -->
+    <section id="personal" class="personal">
+        <div class="container">
+            <h2 class="titulos"> Nuestro personal </h2>
+            
+            <div class="personal-contenedor">
+               <div class="personal">
+                   <div class="personal-contenedor-foto">
+                       <img  src="./img/personal1.jpg" alt="fotografia del personal 1" class="personal-foto lazy-load">
+                   </div>
+                   <p class="titulos"> Dr. mendoza </p>
+                   <p class="personal-detalle">especialidad: <span class="parrafos">Lorem ipsum dolor sit amet.</span> </p>
+
+               </div>
+
+               <div class="personal">
+                <div class="personal-contenedor-foto">
+                    <img  src="./img/personal1.jpg" alt="fotografia del personal 2" class="personal-foto lazy-load">
+                </div>
+                <p class="titulos"> Dr. ortiz </p>
+                <p class="personal-detalle">especialidad: <span class="parrafos">Lorem ipsum dolor sit amet.</span> </p>
+            </div>
+
+            <div class="personal">
+                <div class="personal-contenedor-foto">
+                    <img  src="./img/personal1.jpg" alt="fotografia del personal 3" class="personal-foto lazy-load">
+                </div>
+                <p class="titulos"> Dr. sánchez </p>
+                <p class="personal-detalle">especialidad: <span class="parrafos">Lorem ipsum dolor sit amet.</span> </p>
+            </div>
+            </div><!-- PERSONAL CONTENEDOR -->
+        </div>
+
+    </section>
+
+     <!--  ------------------------------------------------- CONTACTO  -------------------------------------------------   -->
+     <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="titulos"> Contactanos </h2>
+            
+            <div class="contacto-contenedor">
+
+                <div class="contacto-bloques">
+
+                    <div class="contacto-bloque">
+                        <p class="contacto-titulo" >Llamanos</p>
+                        <i class=" contacto-icono fas fa-phone"></i>
+                        <p class="contacto-detalle"> 00-00-00-00-00 </p>
+                        <p class="contacto-detalle"> 00-00-00-00 </p>
+                    </div>
+
+                    <div class="contacto-bloque">
+                        <p class="contacto-titulo" >escribenos</p>
+                        <i class=" contacto-icono far fa-comments"></i>
+                        <p class="contacto-detalle"> correo@correo.com</p>
+                    </div>
+
+                    <div class="contacto-bloque">
+                        <p class="contacto-titulo" >Fax</p>
+                        <i class=" contacto-icono fas fa-fax"></i>
+                        <p class="contacto-detalle"> +980432@faxmaker.com </p>
+                    </div>
+
+                    <div class="contacto-bloque">
+                        <p class="contacto-titulo" >visitanos</p>
+                        <i class="contacto-icono fas fa-map-marked-alt"></i>
+                        <p class="contacto-detalle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo animi odit sit culpa modi error facere repudiandae quod enim? </p>
+                    </div>
+
+                </div> <!--  CONTACTO BLOQUES -->
+
+                <div class="contacto-formulario">
+                    <form id="formulario">
+                        <div class="campos">
+                            <label for="nombre">nombre:</label>
+                            <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                        </div>
+                        <div class="campos">
+                            <label for="email">correo eléctronico:</label>
+                            <input type="email" placeholder="Correo Eléctronico" name="email" id="email">
+                        </div>
+                        <div class="campos">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje" ></textarea>
+                        </div>
+
+                        <input type="submit" name="enviar" id="enviar" value="Enviar" class="boton formulario-boton">
+
+                    </form>
+
+                    <div id="alertaContenedor"></div>
+                </div> <!--  FORMULARIO  -->
+            </div><!-- CONTACTO CONTENEDOR -->
+        </div>
+
+    </section>
+
+     <!--  ------------------------------------------------- FOOTER  -------------------------------------------------   -->
+
+     <footer class="footer">
+        <em class="derechos">&copy copyright TrinidadVelarde Todos los derechos reservados  </em>
+     </footer>
+    
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
